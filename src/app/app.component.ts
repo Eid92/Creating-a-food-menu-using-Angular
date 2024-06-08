@@ -30,5 +30,4 @@ export class AppComponent {
    searchByName(products: any[]){
        return products.filter((item) => item.name.toLowerCase().includes(this.productName.toLowerCase()));
   }
-
 }
